@@ -1,2 +1,2 @@
-# encriptador_curso_alura
-Programa web para encriptar mensajes.
+# Encriptador_curso_alura
+_Programa web para encriptar mensajes.
