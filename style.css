@@ -1,8 +1,19 @@
 body {
+  margin:0;
+  padding: 20px;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-background: linear-gradient(purple,darkcyan);
+background: linear-gradient(purple,darkcyan)no-repeat;
+background-color:black;
+height:100%;
 color:white;
+}
+
+#cuadrosDeTexto{
+  border-radius: 20%;
+  padding: 40px ;
+  margin: 20px 40px;
+  font-size: 25px;
 }
