@@ -1,25 +1,40 @@
 const mensajeInput = document.getElementById('mensaje');
 const encriptadorBtn = document.getElementById('encriptar');
-const desencriptadoTextarea = document.getElementById('encriptado');
-const newMensaje ="";
+const mensajeEncriptado = document.getElementById('encriptado');
 
 encriptadorBtn.addEventListener('click', function() {
     // Obtener el valor del mensaje del input
     const mensaje = mensajeInput.value;
 
-    // Encriptar el mensaje (aquí puedes implementar tu lógica de encriptación)
-    const mensajeEncriptado = encriptarMensaje(mensaje);
+    // Encriptar el mensaje
+    const mensajeAEncriptar = encriptarMensaje(mensaje);
 
     // Mostrar el mensaje encriptado en el textarea
-    desencriptadoTextarea.value = mensajeEncriptado;
+    mensajeEncriptado.value = mensajeAEncriptar;
 
+    // Limpiar el campo de entrada
     mensajeInput.value = '';
 });
 
-// Función de encriptación simple (solo para propósitos de demostración)
 function encriptarMensaje(mensaje) {
-    encriptado.value = '';
-    // Aquí puedes implementar tu algoritmo de encriptación
-    // Por ejemplo, aquí hay una encriptación simple de sustitución:
-    return mensaje.split('').map(char => String.fromCharCode(char.charCodeAt(0) + 1)).join('');
+    var nuevoMensaje = "";
+
+    for (var i = 0; i < mensaje.length; i++) {
+        var letra = mensaje[i];
+        if (letra === 'a') {
+            nuevoMensaje += 'ai';
+        } else if (letra === 'e') {
+            nuevoMensaje += 'enter';
+        } else if (letra === 'i') {
+            nuevoMensaje += 'imes';
+        } else if (letra === 'o') {
+            nuevoMensaje += 'ober';
+        } else if (letra === 'u') {
+            nuevoMensaje += 'ufat';
+        } else {
+            nuevoMensaje += letra;
+        }
+    }
+
+    return nuevoMensaje;
 }
