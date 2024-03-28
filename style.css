@@ -11,17 +11,35 @@ height:100%;
 color:white;
 }
 
+@keyframes reflejo {
+  0% {
+    text-shadow: none; 
+  }
+  50% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); 
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+.reflejo {
+  animation: reflejo 2s infinite; /* Duración de la animación y repetición infinita */
+}
+
+
 h1{
   text-align: center;
   font-size: xx-large;
   background:linear-gradient(purple,gray);
-  font-size: 45px;;
+  font-size: 45px;
+  border-style:groove;
+  border-radius: 15px;
+  border-color: color-mix(in srgb, orange 50%, magenta  50%);
 }
 
 h1:hover{
-  background: linear-gradient(red, black);
-
-
+  background: linear-gradient(cyan, black);
 }
 
 .cuadrosDeTexto{
