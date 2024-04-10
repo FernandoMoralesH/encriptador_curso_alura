@@ -11,14 +11,8 @@ Programa web para encriptar mensajes.
 - 5.- [Resultado](#5)
 - 6.- [Repositorio](#6) 
 
-
-
-[![Ejemplo de imagen](https://via.placeholder.com/150)](https://www.ejemplo.com)
-
-[![gI joe](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
+---
+---
 ## Propósito <a name="id1"></a>
 
 > El proposito de l proyecto es el de tomar practica al momento de comenzar a realizar un proyecto web desde 0.
@@ -57,7 +51,7 @@ La version preliminar se realizo en Figma, quedando de le siguiente manera:
 - Cuenta con dos botones para poder realizar ambas unciones por separado.
 - Cuenta dos Tex Areas, lugar donde se despliega el mensaje encriptado y desencriptado respectivamente.
 
-![Modelo](../img/modelo%20figma_encriptador.jpg)
+![Modelo](img/modelo%20figma_encriptador.jpg)
 
 
 ## Lenguaj de Programación Utilizado <a name="3"></a>
@@ -85,7 +79,7 @@ Desencriptación:
 
 ## Resultado <a name="5"></a> 
 
-![Resultado](img/modelo%20figma_encriptador.jpg)
+![Resultado](img/Encriptador.jpg)
 
 ## Repositorio <a name="6"></a>
 
