@@ -57,7 +57,7 @@ La version preliminar se realizo en Figma, quedando de le siguiente manera:
 - Cuenta con dos botones para poder realizar ambas unciones por separado.
 - Cuenta dos Tex Areas, lugar donde se despliega el mensaje encriptado y desencriptado respectivamente.
 
-![Modelo](img/modelo figma_encriptador)
+![Modelo](../img/modelo%20figma_encriptador.jpg)
 
 
 ## Lenguaj de Programación Utilizado <a name="3"></a>
