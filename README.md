@@ -85,7 +85,7 @@ Desencriptación:
 
 ## Resultado <a name="5"></a> 
 
-![Resultado](img/Encriptador)
+![Resultado](img/modelo%20figma_encriptador.jpg)
 
 ## Repositorio <a name="6"></a>
 
