@@ -19,7 +19,7 @@ Programa web para encriptar mensajes.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Proposito{#1}
+## Proposito {#1}
 
 
 
@@ -35,4 +35,3 @@ Programa web para encriptar mensajes.
 
 
 
-## Amistad{#1}
