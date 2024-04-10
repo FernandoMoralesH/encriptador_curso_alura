@@ -4,7 +4,7 @@ Programa web para encriptar mensajes.
 
 ## _Índice_
 
-- 1.- [Proposito](#1)
+- 1.- [Proposito]{#1}
 - 2.- [Modelo Figma](#2)
 - 3.- [Lenguaje de programación Utilizado](#3)
 - 4.- [Funciones](#4)
@@ -19,7 +19,7 @@ Programa web para encriptar mensajes.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Proposito {#1}
+## Proposito (#1)
 
 
 
